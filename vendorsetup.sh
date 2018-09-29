@@ -1,1 +1,3 @@
-add_lunch_combo omni_kuntao-userdebug
+for var in eng user userdebug; do
+  add_lunch_combo omni_kuntao-$var
+done
